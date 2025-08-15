@@ -37,7 +37,7 @@ sns.scatterplot(data=df, x='Length (min)', y='IMDb Rating', hue='IMDb Rating', p
 plt.title("Movie Length vs IMDb Rating")
 plt.xlabel("Length (Minutes)")
 plt.ylabel("IMDb Rating")
-plt.show()
+# plt.show()
 
 # Do movies with higher vote counts generally have higher IMDb ratings? 
 plt.figure(figsize=(8,5))
@@ -47,4 +47,5 @@ plt.xlabel("Vote Count")
 plt.ylabel("IMDb Rating")
 plt.xscale('log')  
 plt.show()
+
 
